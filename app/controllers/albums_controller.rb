@@ -1,5 +1,5 @@
 class AlbumsController < ApplicationController
   def show
-    @album = Album.find params[:album_id]
+    @album = Album.find params[:id]
   end
 end

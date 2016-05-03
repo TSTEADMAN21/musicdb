@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
+gem 'materialize-sass'
+gem 'tzinfo-data'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

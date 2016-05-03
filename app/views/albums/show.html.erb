@@ -1,2 +1,10 @@
-<h1>Albums#show</h1>
+<p>Albums#show</p>
 <p><%= @album.title %></p>
+
+
+<ul>
+
+<% @album.songs.each do |song| %>
+<li><%= song.track %> : <%=song.title %> </li>
+<% end %>
+</ul>

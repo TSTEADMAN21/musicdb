@@ -14,5 +14,26 @@
  *= require_self
  */
 @import "materialize/components/color";
-$primary-color: color("blue", "lighten-2") !default;
+$primary-color: color("green", "lighten-2") !default;
 @import "materialize";
+
+.music-list{
+	dispaly: flex;
+	flex-wrap: wrap;
+}
+
+.music-list .photo{
+	margin:20px;
+	max-width:300px;
+	max-height: auto;
+}
+
+.photo{
+	max-width:200px;
+}
+
+
+.breadcrumb
+{
+	color: black;
+}
